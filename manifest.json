@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Problem Searcher",
+  
+  "description": "This extension displays the problem from popular online judges like UVA, SPOJ, Topcoder and Codeforces on searching the keyword. It also searches for a list of problems based on problem type like math,graph etc.",
+  
+  "version": "1.0",
+  
+  "browser_action": {
+  "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "icons": { 
+	"16": "iconwa/icon16.png",
+    "48": "iconwa/icon48.png",
+    "128": "iconwa/icon128.png" 
+	},
+  
+  
+  "permissions": [
+    "tabs"
+  ]
+}
